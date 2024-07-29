@@ -4,7 +4,6 @@ import uuid
 
 from fastapi import FastAPI, Response
 from models import Operations
-from services import task_done_callback
 from tasks import do_operation
 
 from uuid import uuid4
